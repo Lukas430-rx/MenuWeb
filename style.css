@@ -1,0 +1,111 @@
+body {
+    font-family: "Noto Sans JP", "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Yuji Boku SOLO para el título principal */
+header h1 {
+    font-family: 'Yuji Boku', serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Yuji Boku también para títulos de artículos */
+article h2 {
+    font-family: 'Yuji Boku', serif;
+    color: #ff0000;
+}
+
+
+header {
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header .tagline {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1em;
+    margin-top: 5px;
+    color: #ff0000;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+article {
+    background: #d32a2a;
+    margin-bottom: 30px;
+    border-left: 5px solid #2e00f900;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+article footer {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 10px;
+}
+
+article p {
+    letter-spacing: 0.02em;
+}
+
+
+
+.site-footer {
+    background: #ffffff;
+    color: #888;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    border-top: 2px solid #3c00ff;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+article {
+    overflow: hidden;
+}
+
+article img {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.59);
+}
+
